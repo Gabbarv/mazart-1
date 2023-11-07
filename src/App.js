@@ -6,6 +6,7 @@ import ManageProfile from './components/table/ManageProfile';
 import Sidebar from './components/sidebar/Sidebar';
 import Navbar from './components/navbar/Navbar';
 import One from '../src/pages/One'
+import Modal from './components/modal/Modal';
 import { useState } from 'react';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
    <Routes>
     <Route path='/' element={<Home/>}/>
     </Routes>
+    {showModal && <Modal title={title} view={view} setShowModal={setShowModal} setView={setView} setTitle={setTitle}/>}
     <div className='admin-page'>
         
         <Sidebar/>
