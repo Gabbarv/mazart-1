@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 4%;
+    background-color: #3D3D3D;
+    height: 60px;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+.notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.profile-sec{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    padding: .5% 2%;
+    border-radius: 10px;
+
+}
+.imag img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
